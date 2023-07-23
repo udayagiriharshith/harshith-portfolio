@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap');
+*{
+    font-family: 'Ysabeau Office', sans-serif;
+} 
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("D:\Portfolio\images\pb.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:rgb(0, 0, 0) ;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color:antiquewhite;
+    border: 2px solid yellowgreen;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height: 50vh;
+}
